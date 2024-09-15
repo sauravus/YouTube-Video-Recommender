@@ -1,5 +1,6 @@
 ## Table of Contents
 - [Project Structure](#project-structure)
+- [Diagram](#diagram)
 - [How It Works](#how-it-works)
   - [1. Data Collection and Preparation](#data-collection-and-preparation)
   - [2. Embedding and Recommendation Generation](#embedding-and-recommendation-generation)
@@ -14,6 +15,10 @@
 - **CSV Files**:  
   - **youtube_video_statistics_with_titles.csv**: Stores the fetched YouTube video statistics, including views, likes, comments, and other engagement metrics.
   - **youtube_video_statistics_embeddings.csv**: Contains the generated embeddings for each video entry, which are used to facilitate recommendations and analytics.
+ 
+## Diagram
+
+![Flow of the app](final.jpg)
 
 ## How It Works
 
